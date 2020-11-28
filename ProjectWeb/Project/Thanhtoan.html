@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <!------ reset CSS về mặc định ------->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+	<!-------- nhúng icon ----------->
+	<link rel="stylesheet" type="text/css" href="Assets/fonts/fontawesome-free-5.14.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/css/style_thanhtoansp_page.css">
+
+	<!-------- nhúng bootstrap ----------->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="apps">
+		<div class="moveTop">
+			<a href="#top">
+				<i class="fas fa-chevron-up moveTop-icon"></i>
+			</a>
+		</div>
+		<div id="top"></div>
+
+        <header>
+			<div class="navbar__container">
+				<nav class="nav container">
+					<div class="nav__brand">
+						<a href="homepage.html">
+							<svg xmlns="http://www.w3.org/2000/svg" width="105" height="16" viewBox="0 0 105 16">
+								<g fill="none" fill-rule="evenodd">
+									<path d="M0.964 0H121.507V32H0.964z" transform="translate(-9 -8)"/>
+									<path fill="#000" fill-rule="nonzero" d="M15.937 19.184c.155.363.104.829.026 1.114-.13.492-.466 1.01-1.45 1.01-.931 0-1.5-.544-1.5-1.347v-1.45H9v1.14C9 22.99 11.614 24 14.436 24c2.692 0 4.918-.932 5.28-3.417.181-1.295.052-2.123-.026-2.46-.62-3.133-6.29-4.065-6.73-5.8-.077-.31-.051-.62-.026-.776.104-.466.44-1.01 1.372-1.01.88 0 1.398.544 1.398 1.346v.933h3.728v-1.062C19.432 8.492 16.507 8 14.384 8c-2.666 0-4.815.88-5.229 3.314-.103.673-.13 1.269.026 2.02.673 3.028 5.98 3.909 6.756 5.85zm48.534-.025c.155.362.103.828.026 1.087-.13.492-.466.984-1.45.984-.932 0-1.475-.544-1.475-1.347V18.46h-3.96v1.139c0 3.288 2.588 4.297 5.383 4.297 2.667 0 4.867-.906 5.23-3.391.18-1.269.05-2.123-.027-2.434-.621-3.107-6.238-4.013-6.652-5.747-.078-.311-.052-.622-.026-.777.104-.466.414-.984 1.346-.984.854 0 1.372.544 1.372 1.346v.907h3.701V11.78c0-3.21-2.899-3.728-4.995-3.728-2.615 0-4.763.88-5.177 3.288-.104.647-.13 1.243.026 1.993.673 3.03 5.927 3.91 6.678 5.826zm30.984 1.32l-.207-12.013h3.701v14.757h-5.332l-3.753-12.401.207 12.401h-3.676V8.466h5.54l3.52 12.013zM28.335 9.553l-2.07 13.826h-4.038l2.744-14.913h6.652l2.744 14.913h-4.012l-2.02-13.826zm21.796 0L47.542 23.38h-3.779L41.201 9.553l-.104 13.826H37.37l.31-14.913h6.083l1.89 11.65 1.89-11.65h6.082l.337 14.913h-3.728l-.103-13.826zm26.868 11.6c1.035 0 1.372-.726 1.424-1.088.026-.156.026-.389.026-.57V8.44h3.779V19.16c0 .284-.026.828-.026.983-.259 2.797-2.46 3.703-5.203 3.703-2.744 0-4.944-.906-5.203-3.703-.026-.155-.052-.699-.026-.983V8.44h3.78v11.055c0 .181 0 .414.025.57.078.388.389 1.087 1.424 1.087zm31.165-.156c1.087 0 1.45-.7 1.527-1.088.026-.18.052-.388.026-.57v-2.174h-1.527V14.99h5.28v4.013c0 .285 0 .492-.051.984-.259 2.719-2.615 3.676-5.255 3.676-2.64 0-4.996-.957-5.254-3.676-.052-.492-.052-.699-.052-.984v-6.291c0-.259.026-.725.052-.984.336-2.796 2.588-3.676 5.254-3.676 2.64 0 4.97.88 5.229 3.676.052.466.026.984.026.984v.492h-3.78v-.829s0-.362-.051-.57c-.078-.336-.362-1.087-1.501-1.087-1.088 0-1.398.725-1.476 1.088-.052.207-.052.466-.052.699v6.835c0 .181 0 .388.026.57.104.414.492 1.087 1.58 1.087z" transform="translate(-9 -8)"/>
+								</g>
+							</svg>
+						</a>
+					</div>
+					
+					<!----- Nav PC ----->
+					<div class="nav__list-container-PC">
+						<ul class="nav__list nav__list-1">
+							<li class="nav__list-item nav__list-1-item">
+								<a href="aboutus.html" class="nav__list-item-link">Về chúng tôi</a>
+							</li>
+							<li class="nav__list-item nav__list-1-item">
+								<a href="Productspage.html" class="nav__list-item-link">Khám phá sản phẩm</a> 
+							</li>
+						</ul>
+
+						<ul class="nav__list nav__list-2">
+							<li class="nav__list-item nav__list-2-item">
+								<a href="dangnhap.html" class="nav__list-item-link">
+									<i class="fas fa-user login-icon"></i>
+									<span>Đăng nhập</span> 
+								</a> 
+							</li>
+							<li class="nav__list-item nav__list-item-no-mrR nav__list-2-item">
+								<a href="dangki.html" class="nav__list-item-link">
+									<i class="fas fa-user-plus register-icon"></i>
+									<span>Đăng ký</span> 
+								</a> 
+							</li>
+						</ul>
+					</div>	
+
+					<label class="nav__btn" for="nav__input">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+							</path>
+						</svg>
+					</label>
+					
+					<input type="checkbox" id="nav__input">
+
+					<label class="nav__overlay" for="nav__input"></label>
+
+					<!----- Nav < PC ----->
+					<div class="nav__list-container-lt-PC">
+						<label class="nav__list-container-lt-PC-close" for="nav__input">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+								<path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+								</path>
+							</svg>
+						</label>
+
+						<ul class="nav__list-lt-PC">
+							<li class="nav__list-lt-PC-item">
+								<a href="aboutus.html" class="nav__list-lt-PC-item-link">Về chúng tôi</a>
+							</li>
+							<li class="nav__list-lt-PC-item">
+								<a href="Productspage.html" class="nav__list-lt-PC-item-link">Khám phá sản phẩm</a>
+							</li>
+							<li class="nav__list-lt-PC-item">
+								<a href="dangnhap.html" class="nav__list-lt-PC-item-link">Đăng nhập</a>
+							</li>
+							<li class="nav__list-lt-PC-item">
+								<a href="dangki.html" class="nav__list-lt-PC-item-link">Đăng ký</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="linkPages container">
+				<a href="homepage.html">Trang chủ</a> &gt <a href="Productspage.html">Các sản phẩm</a> &gt <a href="ChiTietspPage.html">Chi tiết sản phẩm</a> &gt <a href="#" style="color: #666;">Thanh Toán</a>
+			</div>
+
+			<div class="main__wrap container">
+				<div class="main__container">
+					<div class="main-header__content-heading">
+						<div class="main-header__content-header-cart">
+							<h2 class="cart-content-heading">GIỎ HÀNG</h2>
+							<div class="cart-content-heading-icon">
+								<i class="fas fa-shopping-cart"></i>
+							</div>
+						</div>
+
+						<div class="main-header__content-header-Buymore">
+							<h2 class="main-header__content--noBold">MUA THÊM</h2>
+						</div>
+					</div>
+
+					<div class="main__product-show-and-money">
+						<div class="product__show-container">
+							<div class="product__show-img-container">
+								<!-- <img src="Assets/images/Products_Image/Galaxy_S/galaxy-s8.jpg" alt="" title="SAMSUNG GALAXY S8" class="product__show-img"> -->
+							</div>
+							
+							<div class="product-name-container">
+								<div class="product-name-and-icon">
+									<p class="product-name">ĐIỆN THOẠI 
+										<span>
+											<!-- SAMSUNG GALAXY S8 -->
+										</span>
+									</p>
+									<div class="product-icon">
+										<i class="fas fa-mobile-alt"></i>
+									</div>
+								</div>
+								
+								<div class="product__desc-container">
+									<p class="product-desc-sold">32 Đã bán</p>
+									<p class="product-desc">Hàng chính hãng</p>
+								</div>								
+							</div>
+						</div>
+
+						<div class="product__money-container">
+							<div class="money">
+								<!-- 10.990.000 <span>đ</span> -->
+							</div>
+
+							<div class="product-sell-number">
+								<button class="product-sell-number-btn" id="btn-minus">
+									<i class="fas fa-minus"></i>
+								</button>
+								<input type="text" name="number_product" class="number_product-input" id="numberProduct" min="1">
+								<button class="product-sell-number-btn" id="btn-plus">
+									<i class="fas fa-plus"></i>
+								</button>					
+							</div>
+							<p id="checkErrorInput" style="font-size: 1.2rem; color: red;"></p>
+						</div>
+					</div>
+
+					<div class="main__product-totalMoney-container">
+						<div class="main__product-totalMoney">
+							<p>Tổng tiền sản phẩm:</p>
+						</div>
+
+						<div class="totalMoney">
+							10.990.000 <span>đ</span>
+						</div>
+					</div>
+
+					<div class="main__product-method-payment-wrap">
+						<div class="main__product-method-payment-header">
+							<h3 class="main__product-method-payment-heading">PHƯƠNG THỨC THANH TOÁN</h3>
+						</div>
+
+						<div class="main__product-method-payment-container">
+							<div class="method-payment">
+								<div class="method-payment-input-container">
+									<input type="radio" name="method" id="" class="method-payment-input-1">
+									<span>Thanh toán tại điểm giao hàng</span>
+								</div>
+
+								<div class="method-payment-desc">
+									Quý khách thanh toán cho nhân viên giao nhận toàn bộ hoặc phần còn lại của giá trị đơn hàng đã mua (nếu đã đặt cọc)
+									Hình thức thanh toán này chỉ thực hiện với các đơn hàng có địa chỉ giao hàng tại nội thành thành phố Hà Nội (trong phạm vi bán kính 30 km tính từ nơi mua hàng).
+									Nếu địa điểm giao hàng ngay tại nơi thanh toán, nhân viên giao hàng của chúng tôi sẽ thu tiền khi giao hàng.
+								</div>
+							</div>
+
+							<div class="method-payment">
+								<div class="method-payment-input-container">
+									<input type="radio" name="method" id="" class="method-payment-input-2">
+									<span>Thanh toán qua chuyển khoản ngân hàng</span>
+								</div>
+
+								<div class="method-payment-desc">
+									<p class="method-payment-desc-de">
+										Nếu địa điểm giao hàng là ngoại thành, ngoại tỉnh hoặc nội thành thành phố Hà Nội nhưng khác với địa điểm thanh toán (trong trường hợp Quý khách gửi quà, gửi hàng cho bạn bè, đối tác …) chúng tôi sẽ thu tiền 
+										trước 100% giá trị đơn hàng + phí vận chuyển theo cước phí tính trong chinh sách vận chuyển bằng phương thức chuyển khoản trước khi giao hàng
+									</p>
+									<p>
+										Tên tài khoản: Nguyễn Văn A
+									</p>
+									<ul class="method-payment-stk-list">
+										<li class="method-payment-stk-item">
+											<span>BIDV</span>
+											<span>Số tài khoản: 58109982234567</span>
+										</li>
+										<li class="method-payment-stk-item">
+											<span>Vietcombank</span>
+											<span>Số tài khoản: 58109982234</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="main__product-form-getInfo-wrap">
+						<div class="main__product-form-getInfo-header">
+							<h3 class="main__product-form-getInfo-heading">THÔNG TIN KHÁCH HÀNG</h3>
+						</div>
+
+						<div class="main__product-form-getInfo-container">
+							<form action="" method="post" class="main__product-form">
+								<div class="form__group-input">
+									<div class="input__group-container">
+										<input type="text" name="fullname" id="" placeholder="Họ và tên *" required>
+									</div>
+									<div class="input__group-container">
+										<input type="tel" name="telNumber" id="" placeholder="Số ĐT *" required>
+									</div>
+									<div class="input__group-container">
+										<input type="email" name="email" id="" placeholder="Email">
+									</div>
+									<div class="input__group-container">
+										<input type="text" name="address" id="" placeholder="Địa chỉ *" required>
+									</div>
+								</div>
+								<div class="form__group-input">
+									<div class="input__group-container">
+										<textarea name="note" id="" placeholder="Ghi chú"></textarea>
+									</div>
+									<div class="input__group-container input__group-container--flex">
+										<div class="input__btn-group">
+											<input type="submit" value="Gửi đơn" name="sendForm">
+										</div>
+										<div class="input__btn-group">
+											<input type="button" value="Tiếp tục mua" name="continueToBuy">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="footer__link-info-container">
+					<div class="row">
+						<div class="col-lg-3 col-md-12 footer__link-info">
+							<h4>Về Samsung</h4>
+							<ul class="footer__link-info-list">
+								<li class="footer__link-info-item">
+									<a href="#" class="footer__link-info-item-link">
+										Công ty chúng tôi
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Báo cáo thường niên 
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Cơ hội việc làm
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Các nhà cung cấp
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Chính sách cộng đồng 
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-3 col-md-12 footer__link-info">
+							<h4>Khám phá</h4>
+							<ul class="footer__link-info-list">
+								<li class="footer__link-info-item">
+									<a href="#" class="footer__link-info-item-link">
+										Câu chuyện thành công
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Ấn phẩm
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Samsung Blog
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-3 col-md-12 footer__link-info">
+							<h4>Những sản phẩm</h4>
+							<ul class="footer__link-info-list">
+								<li class="footer__link-info-item">
+									<a href="#" class="footer__link-info-item-link">
+										Khách hàng
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Doanh nghiệp
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Samsung Cloud
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-3 col-md-12 footer__link-info">
+							<h4>Hỗ trợ</h4>
+							<ul class="footer__link-info-list">
+								<li class="footer__link-info-item">
+									<a href="#" class="footer__link-info-item-link">
+										Liên lạc với chúng tôi
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										Hỗ trợ trực tuyến
+									</a>
+								</li>
+								<li class="footer__link-info-list-item">
+									<a href="#" class="footer__link-info-item-link">
+										<span>Hỗ trợ doanh nghiệp</span> 
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__contact-container">
+					<p>Samsung Product Payment Page</p>
+					<div class="footer__contact-icons">
+						<div class="footer__contact-icon">
+							<a href="#" class="footer__contact-icon-link">
+								<i class="fab fa-facebook footer__contact-icon-item"></i>
+							</a>
+						</div>
+						<div class="footer__contact-icon">
+							<a href="#" class="footer__contact-icon-link">
+								<i class="fab fa-instagram footer__contact-icon-item"></i>
+							</a>
+						</div>
+						<div class="footer__contact-icon">
+							<a href="#" class="footer__contact-icon-link">
+								<i class="fab fa-twitter footer__contact-icon-item"></i>
+							</a>							
+						</div>
+						<div class="footer__contact-icon">
+							<a href="#" class="footer__contact-icon-link">
+								<i class="fab fa-youtube footer__contact-icon-item"></i>
+							</a>							
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__copyrightInfo-container">
+					<div class="footer__copyrightInfo">
+						<span>Bản quyền ©1995-2020 Samsung bảo lưu mọi quyền</span>
+					</div>
+
+					<ul class="footer__copyrightInfo-list">
+						<li class="footer__copyrightInfo-item">
+							<a href="#" class="footer__copyrightInfo-item-link">Contact</a>
+						</li>
+						<li class="footer__copyrightInfo-item">
+							<a href="#" class="footer__copyrightInfo-item-link">Terms of Use</a>
+						</li>
+						<li class="footer__copyrightInfo-item">
+							<a href="#" class="footer__copyrightInfo-item-link">Privacy</a>
+						</li>
+						<li class="footer__copyrightInfo-item">
+							<a href="#" class="footer__copyrightInfo-item-link">Cookies</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+    <script type="text/javascript" src="Assets/js/main_thanhtoansp_page.js"></script>
+</body>
+</html>
