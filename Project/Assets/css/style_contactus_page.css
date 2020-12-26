@@ -177,7 +177,16 @@ header {
 
 /* Main */
 .main__wrapper {
-	margin: 50px 0;
+	margin: 20px 0;
+}
+
+.linkPages {
+	margin-bottom: 20px;
+	font-size: 1.4rem;
+}
+
+.linkPages a:hover {
+	text-decoration: none;
 }
 
 .main__title-heading {
