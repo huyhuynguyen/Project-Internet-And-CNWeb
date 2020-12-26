@@ -1,0 +1,219 @@
+.form-container {
+  width: 60%;
+  height: auto;
+  /* background-color: #212529; */
+  background-color: #fff;
+  position: relative;
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-image {
+  width: 60%;
+  height: auto;
+
+  background-image: url(../images/samsung2-removebg.png);
+
+  background-size: 90% 95%;
+  background-position: 20px 10px, left top;
+  background-repeat: no-repeat;
+}
+
+.div-content {
+  width: 50%;
+  height: 100%;
+}
+.btn-close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  float: right;
+}
+.h2_signup {
+  margin-top: 15% !important;
+  margin-left: 3% !important;
+}
+.label {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.span {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-group1 {
+  margin-left: 3% !important;
+  font-size: medium !important;
+}
+.input {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input:not([type="checkbox"]) {
+  height: 30px;
+  border-radius: 5px;
+
+  margin-bottom: 2%;
+  border: 1px solid;
+}
+.input2 {
+  width: 76%;
+}
+.input2 input {
+  width: 100%;
+}
+.btn-signup {
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  background-color: #00cc99;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  height: 50px;
+  width: 50%;
+}
+/* .a123 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  } */
+#h2_signup {
+  font-weight: 700;
+  font-size: 30px;
+}
+.form-message {
+  font-size: 10px;
+  color: red;
+}
+/**/
+
+.form-container1 {
+  width: 35%;
+  height: 550px;
+  /* background-color: #212529; */
+  background-color: #f2f2f2;
+  position: relative;
+  margin: 4% auto;
+
+  border-radius: 10px;
+
+  background-image: url(../images/samsung2.jpg);
+  background-repeat: no-repeat;
+  background-size: 110% 175px;
+}
+.modal1 {
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+  display: none;
+}
+.btn-close {
+  width: 20px;
+  height: 20px;
+  top: -15px;
+  right: -15px;
+  border-radius: 50%;
+  float: right;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+}
+
+.form-subform {
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  background-color: #f8f9fa;
+  margin-left: 15%;
+  margin-top: 30%;
+  border-radius: 8px;
+}
+#h2_signin {
+  text-align: center !important;
+}
+.label {
+  margin-bottom: 2% !important;
+}
+.form-group1 {
+  margin-left: 10% !important;
+  font-size: medium !important;
+  margin-bottom: 3%;
+}
+input:not([type="checkbox"]) {
+  height: 30px;
+  border-radius: 5px;
+
+  margin-bottom: 2%;
+}
+.input2 {
+  width: 80%;
+}
+.input2 input {
+  width: 100%;
+  border: 1px solid red !important ;
+}
+.btn-signin {
+  background-color: #28304e;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  width: 90%;
+  height: 40px;
+  color: #fff;
+
+  border: none;
+  font-size: large;
+}
+
+.btn-signup-google {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color: #28304e;
+  color: #fff;
+}
+#img-google {
+  max-width: 100px;
+  height: 50px;
+
+  vertical-align: middle;
+}
+/* span {
+    padding: 20px;
+  } */
+.a-login-form {
+  font-size: small;
+  color: #000;
+}
