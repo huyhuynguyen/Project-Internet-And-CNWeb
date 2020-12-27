@@ -470,7 +470,12 @@ input[name="v"] {
 	width: 90%;
 }
 
-.product__search-input {
+#product__search-input--no-border {
+	border: none;
+	margin-bottom: 0px;
+}
+
+input.product__search-input {
 	border: none;
 	outline: none;
 	height: 30px;
