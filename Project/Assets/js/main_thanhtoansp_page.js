@@ -70,6 +70,11 @@ numberProducts.oninput=function() {
     }
 }
 
+var continueBuy=document.querySelector('input[name="continueToBuy"]');
+continueBuy.onclick=function() {
+	window.location.href="Productspage.html";
+}
+
 window.onscroll=function() {
 	if (document.querySelector('body').scrollTop > 70 || document.documentElement.scrollTop > 70) {
 		document.querySelector('.moveTop').style.opacity="1";
