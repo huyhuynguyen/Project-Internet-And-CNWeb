@@ -68,11 +68,6 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: left;
-  padding: 5px;
-}
-
 .row_2 {
   display: flex;
   width: 70%;
