@@ -43,7 +43,7 @@ body {
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
-	background-color: #cccccc;
+	background-color: #e2e0e0;
 	z-index: 3;
 }
 
@@ -515,7 +515,7 @@ input.product__search-input {
 /* Footer */
 footer {
 	margin-top: 50px;
-	background-color: #f2f2f2;
+	background-color: #e2e0e0;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
