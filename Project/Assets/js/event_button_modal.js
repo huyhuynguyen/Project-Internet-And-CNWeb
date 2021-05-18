@@ -6,7 +6,7 @@ console.log(button_signin)
 button.onclick = function() {
 
     document.querySelector('.modal').style.display="flex"
-    alert("click 1")
+    // alert("click 1")
 
 }
 button_close[0].onclick = function() {
@@ -22,7 +22,7 @@ button_close[1].onclick = function() {
 
 button_signin.onclick = function() {
     console.log(document.querySelector('.modal1'))
-    alert("click 2")
+    // alert("click 2")
     document.querySelector('.modal1').style.display="flex"
     // alert()
 }

@@ -87,6 +87,7 @@ body {
 	border-radius: 20px;
 	color: var(--nav-text-link-color);
 	transition: background-color linear 0.3s;
+	cursor: pointer;
 }
 
 .nav__btn {
